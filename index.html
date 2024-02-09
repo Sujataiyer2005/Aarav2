@@ -4,21 +4,22 @@
 <title>
 names of flowers
 </title>
-<link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
-<script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+<link rel="stylesheet" href="https://pyscript.net/releases/2024.1.3/core.css">
+<script type="module" src="https://pyscript.net/releases/2024.1.3/core.js"></script>
 </head>
 <body background = "C:\Users\Tarun\Desktop\aarav ka stuff hai ye\videos images and more\imaaaa\work\yutit.png">
 <header style = "color : mediumturquoise ; text-align : center"> <h1> Names of Flowers </h1> </header>
 <br>
-<py-script> 
-  print('Now you can!') 
-</py-script>
 <hr>
 <br>
 
 <section style = "color : gold ; font-size : 50 ; font-family : tahoma , sans serif ; text-align : center ">
 <h2> Daffodil </h2>
 <br>
+  <input type="text" name="english" id="english" placeholder="Type English here..." />
+  <button py-click="translate_english">Translate</button>
+  <div id="output"></div>
+  <script type="py" src="./main.py" config="./pyscript.json"></script>
 <br>
 </section>
 <section style = "color : mediumblue ; font-size : 50 ; font-family : brush script mt , cursive ; text-align : center ">
